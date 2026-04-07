@@ -1,1 +1,5 @@
-# dog-api-tests
+# Dog API Tests
+
+## Run
+
+mvn clean test

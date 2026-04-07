@@ -1,0 +1,5 @@
+base\BaseTest.class
+utils\Config.class
+tests\ImagesTest.class
+tests\BreedsTest.class
+tests\RandomImageTest.class
