@@ -1,4 +1,4 @@
-```yaml
+
 name: CI - Testes API
 
 on:
@@ -21,4 +21,5 @@ jobs:
 
       - name: Rodar testes
         run: mvn clean test
-```
+
+
