@@ -20,7 +20,8 @@ O objetivo é garantir:
 * RestAssured
 * JUnit 5
 * Allure Reports
-
+* Docker
+* GitHub Actions (CI/CD)
 
 ---
 
@@ -94,19 +95,13 @@ allure-report/
 
 ### 👉 Abrir relatório:
 
-**Windows:**
+
 
 ```bash
 start allure-report/index.html
 ```
-
-**Mac:**
-
-```bash
-open allure-report/index.html
-```
-
 ---
+
 
 
 # 📁 Estrutura do Projeto
