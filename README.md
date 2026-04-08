@@ -83,52 +83,7 @@ allure serve target/allure-results
 
 ---
 
-# 🐳 2. Execução com Docker (RECOMENDADO)
 
-👉 Essa abordagem garante que o projeto rode em qualquer máquina sem precisar instalar Java ou Maven.
-
----
-
-## 📋 Pré-requisitos
-
-* Docker instalado
-
-👉 Download:
-https://www.docker.com/products/docker-desktop/
-
----
-
-## ▶️ Passo a passo
-
-### 🔨 1. Build da imagem
-
-```bash
-docker build -t dog-api-tests .
-```
-
----
-
-### ▶️ 2. Rodar os testes
-
-### 💻 Windows (PowerShell):
-
-```bash
-docker run --rm -v ${PWD}:/app dog-api-tests
-```
-
-### 💻 Windows (CMD):
-
-```bash
-docker run --rm -v %cd%:/app dog-api-tests
-```
-
-### 🍎 Mac / 🐧 Linux:
-
-```bash
-docker run --rm -v $(pwd):/app dog-api-tests
-```
-
----
 
 ## 📊 Relatório
 
@@ -187,29 +142,6 @@ src/test/java/
 src/test/resources/
 └── schemas/
 ```
-
----
-
-# 🧠 Diferenciais do Projeto
-
-* ✔ Testes automatizados de API
-* ✔ Estrutura organizada e escalável
-* ✔ Testes positivos e negativos
-* ✔ Validação de resposta
-* ✔ Relatório Allure
-* ✔ Execução via Docker
-* ✔ Pipeline CI/CD com GitHub Actions
-
----
-
-# 💬 Considerações Finais
-
-Este projeto foi desenvolvido seguindo boas práticas de qualidade de software, com foco em:
-
-* Manutenibilidade
-* Reprodutibilidade
-* Clareza de execução
-* Portabilidade entre ambientes
 
 ---
 
