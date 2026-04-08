@@ -10,3 +10,4 @@ public class BaseTest {
         RestAssured.baseURI = "https://dog.ceo/api";
     }
 }
+//teste
