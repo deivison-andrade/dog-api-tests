@@ -20,8 +20,7 @@ O objetivo é garantir:
 * RestAssured
 * JUnit 5
 * Allure Reports
-* Docker
-* GitHub Actions (CI/CD)
+
 
 ---
 
@@ -109,27 +108,6 @@ open allure-report/index.html
 
 ---
 
-# ⚙️ CI/CD (Execução Automática)
-
-O projeto possui integração com GitHub Actions.
-
-A cada push na branch `main`:
-
-* 🐳 Build da imagem Docker
-* 🧪 Execução dos testes
-* 📊 Geração do relatório Allure
-* 📦 Upload do relatório como artefato
-
----
-
-## 📥 Como acessar o relatório no GitHub
-
-1. Acesse a aba **Actions**
-2. Clique no último workflow executado
-3. Baixe o artefato **allure-report**
-4. Abra o arquivo `index.html`
-
----
 
 # 📁 Estrutura do Projeto
 
