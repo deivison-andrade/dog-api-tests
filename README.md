@@ -1,5 +1,7 @@
 # 🐶 Dog API - Testes Automatizados
 
+[![CI](https://github.com/deivison-andrade/dog-api-tests/actions/workflows/tests.yml/badge.svg)](https://github.com/deivison-andrade/dog-api-tests/actions)
+
 ## 📌 Sobre o Projeto
 
 Este projeto contém testes automatizados para validação da Dog API (https://dog.ceo/dog-api/).
@@ -12,6 +14,7 @@ O objetivo é garantir:
 * ✔ Cenários positivos e negativos
 
 ---
+
 
 ## 🚀 Tecnologias Utilizadas
 
