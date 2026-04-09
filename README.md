@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/deivison-andrade/dog-api-tests/actions/workflows/tests.yml/badge.svg)](https://github.com/deivison-andrade/dog-api-tests/actions)
 
-## 📌 Sobre o Projeto
+##  Sobre o Projeto
 
 Este projeto contém testes automatizados para validação da Dog API (https://dog.ceo/dog-api/).
 
@@ -16,32 +16,31 @@ O objetivo é garantir:
 ---
 
 
-## 🚀 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 * Java 11
 * Maven
 * RestAssured
 * JUnit 5
 * Allure Reports
-* Docker
-* GitHub Actions (CI/CD)
+
 
 ---
 
-# ⚙️ Como Executar o Projeto
+#  Como Executar o Projeto
 
-Você pode rodar o projeto de **duas formas**:
+
 
 ---
 
-# 🧪 1. Execução LOCAL (sem Docker)
+#  1. Execução LOCAL 
 
 ## 📋 Pré-requisitos
 
 * Java 11+
 * Maven instalado
 
-### 🔎 Verificar instalação:
+### Verificar instalação:
 
 ```bash
 java -version
@@ -50,7 +49,7 @@ mvn -version
 
 ---
 
-## ▶️ Passo a passo
+## Passo a passo
 
 ```bash
 git clone <https://github.com/deivison-andrade/dog-api-tests.git>
@@ -60,7 +59,7 @@ mvn clean test
 
 ---
 
-## 📊 Relatório Allure (opcional)
+## Relatório Allure (opcional)
 
 ### Instalar Allure:
 
@@ -88,7 +87,7 @@ allure serve target/allure-results
 
 
 
-## 📊 Relatório
+##  Relatório
 
 Após a execução, o relatório será gerado na pasta:
 
@@ -96,7 +95,7 @@ Após a execução, o relatório será gerado na pasta:
 allure-report/
 ```
 
-### 👉 Abrir relatório:
+###  Abrir relatório:
 
 
 
@@ -107,7 +106,7 @@ start allure-report/index.html
 
 
 
-# 📁 Estrutura do Projeto
+#  Estrutura do Projeto
 
 ```bash
 src/test/java/
@@ -121,6 +120,6 @@ src/test/resources/
 
 ---
 
-# 👨‍💻 Autor
+#  Autor
 
 Desenvolvido por Deivison Andrade 🚀
