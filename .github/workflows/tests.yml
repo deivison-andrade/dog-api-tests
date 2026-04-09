@@ -3,8 +3,6 @@ name: CI - Testes API
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
 
 jobs:
   testes:
@@ -14,24 +12,11 @@ jobs:
       - name: Checkout do código
         uses: actions/checkout@v4
 
-      - name: Setup Java 11
+      - name: Setup Java
         uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
           java-version: '11'
-          cache: maven
-
-      - name: Dar permissão ao Maven 
-        run: chmod +x mvnw || true
 
       - name: Rodar testes
         run: mvn clean test
-
-      - name: Gerar relatório Allure
-        run: mvn allure:report || true
-
-      - name: Upload do relatório
-        uses: actions/upload-artifact@v4
-        with:
-          name: allure-report
-          path: target/site/allure-maven-plugin
