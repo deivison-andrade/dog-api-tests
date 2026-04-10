@@ -1,6 +1,6 @@
-# 🐶 Dog API - Testes Automatizados
+#  Dog API - Testes Automatizados
 
-[![CI](https://github.com/deivison-andrade/dog-api-tests/actions/workflows/tests.yml/badge.svg)](https://github.com/deivison-andrade/dog-api-tests/actions)
+[[CI](https://github.com/deivison-andrade/dog-api-tests/actions/workflows/tests.yml/badge.svg)](https://github.com/deivison-andrade/dog-api-tests/actions)
 
 ##  Sobre o Projeto
 
@@ -30,12 +30,11 @@ O objetivo é garantir:
 #  Como Executar o Projeto
 
 
-
 ---
 
 #  1. Execução LOCAL 
 
-## 📋 Pré-requisitos
+##  Pré-requisitos
 
 * Java 11+
 * Maven instalado
