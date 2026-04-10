@@ -1,5 +1,5 @@
-base\BaseTest.class
-utils\Config.class
-tests\ImagesTest.class
-tests\BreedsTest.class
-tests\RandomImageTest.class
+tests/ImagesTest.class
+tests/RandomImageTest.class
+tests/BreedsTest.class
+base/BaseTest.class
+utils/Config.class
