@@ -2,9 +2,9 @@ name: CI - Testes API
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
 
 jobs:
   testes:
@@ -14,15 +14,12 @@ jobs:
       - name: Checkout do código
         uses: actions/checkout@v4
 
-      - name: Setup Java 11
+      - name: Setup Java
         uses: actions/setup-java@v4
         with:
-          distribution: 'temurin'
-          java-version: '11'
+          distribution: temurin
+          java-version: 11
           cache: maven
-
-      - name: Dar permissão ao Maven (evita erro)
-        run: chmod +x mvnw || true
 
       - name: Rodar testes
         run: mvn clean test
